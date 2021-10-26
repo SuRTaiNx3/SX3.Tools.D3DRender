@@ -6,14 +6,16 @@ The code below shows a basic example. Please take a look at the SX3.Tools.D3DRen
 ```csharp
 using using SX3.Tools.D3DRender;
 
+int width = 1920;
+int height = 1080;
 var ui = new UIRenderer(this.Handle);
-ui.InitializeDevice(1920, 1080);
+ui.InitializeDevice(width, height);
 
 new Thread(() => 
 {
 	while (true)
 	{
-		ui.StartFrame(_width, _height);
+		ui.StartFrame(width, height);
 
 		ui.DrawBox(100, 100, 75, 150, 1, System.Drawing.Color.Red);
 
