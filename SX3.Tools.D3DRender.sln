@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SX3.Tools.D3DRender", "SX3.Tools.D3DRender\SX3.Tools.D3DRender.csproj", "{E034F11E-A084-430A-ACF4-D7D941094632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SX3.Tools.D3DRender.Example", "SX3.Tools.D3DRender.Example\SX3.Tools.D3DRender.Example.csproj", "{1BF54025-79DC-4B2D-B72A-F02949F263C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E034F11E-A084-430A-ACF4-D7D941094632}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E034F11E-A084-430A-ACF4-D7D941094632}.Debug|Any CPU.Build.0 = Debug|x86
+		{E034F11E-A084-430A-ACF4-D7D941094632}.Release|Any CPU.ActiveCfg = Release|x86
+		{1BF54025-79DC-4B2D-B72A-F02949F263C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF54025-79DC-4B2D-B72A-F02949F263C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF54025-79DC-4B2D-B72A-F02949F263C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF54025-79DC-4B2D-B72A-F02949F263C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B848D49C-41FD-414A-B709-E39CBFC0DEC0}
+	EndGlobalSection
+EndGlobal
